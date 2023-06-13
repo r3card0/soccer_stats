@@ -24,7 +24,7 @@ class Teams:
     
     # Actions/operations - insert statements
     def insert_teams(self):
-        insert_ = "INSERT INTO teams(team,team_type) VALUES(%s,%s)"
+        insert_ = "INSERT INTO teams(team,team_type,country_id) VALUES(%s,%s,%s)"
         return insert_
 
     

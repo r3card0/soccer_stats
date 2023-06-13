@@ -9,7 +9,7 @@ from _path import leagues_file, seasons_file, teams_file
 # instances
 league_mx = Leagues(leagues_file,['league_name','league_lvl','country_id',])
 season_mx = Seasons(seasons_file,['season','league_id','start_date','end_date'])
-teams_mx = Teams(teams_file,['team','team_type'])
+teams_mx = Teams(teams_file,['team','team_type','country_id'])
 
 
 

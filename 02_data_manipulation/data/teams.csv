@@ -1,19 +1,19 @@
-﻿team_type,team
-2,America
-2,Monterrey
-2,Santos Laguna
-2,Pachuca
-2,Universidad Autónoma de  Nuevo León
-2,Toluca
-2,Cruz Azul
-2,Puebla
-2,Guadalajara
-2,Leon
-2,Juarez
-2,Necaxa
-2,San Luis
-2,Mazatlan
-2,Tijuana
-2,Universidad Autónoma de México
-2,Atlas
-2,Queretaro
+﻿team_type,team,country_id
+2,America,11
+2,Monterrey,11
+2,Santos Laguna,11
+2,Pachuca,11
+2,Universidad Autónoma de Nuevo León,11
+2,Toluca,11
+2,Cruz Azul,11
+2,Puebla,11
+2,Guadalajara,11
+2,Leon,11
+2,Juarez,11
+2,Necaxa,11
+2,San Luis,11
+2,Mazatlan,11
+2,Tijuana,11
+2,Universidad Autónoma de México,11
+2,Atlas,11
+2,Queretaro,11

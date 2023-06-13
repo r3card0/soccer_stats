@@ -2,6 +2,7 @@ CREATE TABLE teams
 (
     team_id SERIAL NOT NULL
     , team VARCHAR(50) NOT NULL
+    , country_id INTEGER NOT NULL
     , team_type INTEGER NOT NULL -- 1:national team,2:Club team
     , since_date DATE
     , common_name VARCHAR(30)
