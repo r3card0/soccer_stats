@@ -9,7 +9,7 @@
 ## Requirements
 Python
 ```
-pip install pandas openpyxl  psycopg2
+pip install pandas openpyxl psycopg2
 ```
 
 
@@ -17,7 +17,9 @@ pip install pandas openpyxl  psycopg2
 * In progress: collection and storing data
 
 # Data Model
+There are two schemas: Public and Geodata. the Public schema stores soccer data. The geodata schema stores the geolocations related to cities, countries, etc.
 
+# Objects of the Public Schema
 ## Leagues
 Stores the name of the league, their country_id where is belongs and the level of the league, for example if the league is the firts level or second level. For example, in Mexico, the top soccer league is the first professional division and it is called: Liga MX. 
 
@@ -29,3 +31,5 @@ This object stores all the soccer teams around the world. There is a field that 
 
 ## Teams by season
 This is an associative object where a relation is stablished between all the teams which are participated in an specific season.
+
+# Objects of the Geodata Schema
