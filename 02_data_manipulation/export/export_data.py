@@ -22,6 +22,20 @@ class ExportData:
         """
         return query
     
+    def ret_players_by_season_query(self):
+        query = """
+        SELECT
+        concat(player_name,' ',last_name) player
+        , p.player_id
+        , t.team equipo
+        FROM players_by_team_by_season pts
+        JOIN seasons s ON s.season_id = pts.season_id AND s.season_id = 2
+        JOIN teams t ON t.team_id = pts.team_id
+        JOIN players p ON p.player_id = pts.player_id
+        ORDER BY 3,2
+        """
+        return query
+    
     def matches_query(self,jornada:int):
         query =f"""
         SELECT
